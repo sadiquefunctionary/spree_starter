@@ -65,7 +65,7 @@ services:
       context: .
       dockerfile: ./Dockerfile.nginx
     ports:
-       - '8020:8020'
+       - '80:80'
 
 volumes:
   redis:
