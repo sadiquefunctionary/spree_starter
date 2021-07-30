@@ -60,12 +60,7 @@ services:
       DB_HOST: postgres
       DB_PORT: 5432
       DISABLE_SPRING: 1
-  nginx: 
-    build: 
-      context: .
-      dockerfile: ./Dockerfile.nginx
-    ports:
-       - '80:80'
+
 
 volumes:
   redis:
